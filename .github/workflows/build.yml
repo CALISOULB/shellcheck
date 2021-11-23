@@ -1,6 +1,6 @@
 name: Build ShellCheck
 
-# Run this workflow every time a new commit pushed to your repository
+
 on: push
 
 jobs:
@@ -43,7 +43,7 @@ jobs:
           path: source/
 
   build_source:
-    name: Build Source Code
+    name: Build Source Code 
     needs: package_source
     strategy:
       matrix:
